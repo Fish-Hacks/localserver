@@ -1,19 +1,80 @@
-document.addEventListener("DOMContentLoaded", function() {
-  // Your JavaScript code here
+document.addEventListener("DOMContentLoaded", function () {
+    // Your JavaScript code here
 
-  const message = [
-    "Please restart your router and microwave",
-    "Please restart your laptop",
-    "Please mute your laptop",
-    "Please stop messaging me",
-    "Get out of my head, Get out of my head, Get out of my head, Get out of my head, Get out of my head, Get out of my head,",
-    "HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP",
-  ];
+    const message = [
+        "Please restart your router and microwave",
+        "Please restart your laptop",
+        "Please mute your laptop",
+        "Please stop messaging me",
+        "Get out of my head, Get out of my head, Get out of my head, Get out of my head, Get out of my head, Get out of my head,",
+        "HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP HELP",
+        "Have you tried putting it in rice?",
+        "Have you tried turning it off and on again?",
+        "Have you tried touching grass?",
+        "Is it plugged in?",
 
-  const randMsg = message[Math.floor(Math.random() * message.length)];
-  console.log(randMsg);
-
-  // Get element by id
-  const el = document.getElementById("msg");
-  el.innerHTML = randMsg;
+        // ChatGPT Responses Below
+        "Did you try blowing on it like an old Nintendo cartridge?",
+        "Maybe try whispering sweet nothings to your device?",
+        "Have you considered sacrificing a goat to the technology gods?",
+        "Did you feed your computer some cookies? It might be hungry.",
+        "Try speaking to it in binary - maybe it speaks that language.",
+        "If all else fails, dance around the room for 5 minutes and try again.",
+        "Did you try asking it politely?",
+        "Maybe your device needs a bedtime story. Read it one and see what happens.",
+        "Try convincing your computer that it's a superhero in disguise.",
+        "Have you considered a motivational speech for your router?",
+        "Maybe your laptop is just shy - give it some space.",
+        "Did you check if the server is on strike?",
+        "Try telling your device a joke. Laughter is the best medicine!",
+        "Consider bribing your server with virtual coffee. It might need a pick-me-up.",
+        "Maybe your laptop is just having an existential crisis - reassure it.",
+        "Did you try offering your laptop a vacation? It might need a break.",
+        "Try convincing your router it's the hero the internet deserves.",
+        "Have you tried bribing your device with cat pictures?",
+        "Maybe your server is on a coffee break - wait patiently.",
+        "If at first you don't succeed, call it version 1.0.",
+        "Maybe your device needs a spa day. Offer it a virtual bubble bath.",
+        "Did you try telling your server a bedtime story? It might be sleepy.",
+        "Consider asking your laptop for its favorite song and play it some tunes.",
+        "Have you tried giving your router a pep talk? Motivation works wonders.",
+        "If your laptop had a superhero name, what would it be? Maybe it needs one.",
+        "Try complimenting your server on its excellent performance in a parallel universe.",
+        "Did you check if your device is allergic to anything? Avoid those triggers.",
+        "Maybe your laptop is just trying to be mysterious. Solve the enigma.",
+        "Have you considered sending your router positive vibes? Energy matters.",
+        "Did you try convincing your device it's the chosen one? Destiny calls.",
+        "Try asking your laptop for its favorite movie recommendation and watch it together.",
+        "Consider organizing a virtual dance party for your server. Let it groove.",
+        "Have you tried appealing to your device's sense of humor? Tell a tech joke.",
+        "Maybe your router just needs a virtual hug. Send one its way.",
+        "Did you try convincing your laptop it's the star of a digital reality show?",
+        "Try asking your server for a magic trick. It might have a surprise.",
+        "Consider asking your device for its wildest dream and make it come true virtually.",
+        "Have you tried negotiating with your router? Sometimes compromise is key.",
+        "Maybe your laptop is on strike for better working conditions - listen to its demands.",
+        "Is your server on a coffee break or a tea timeout?",
+        "Consider singing a lullaby to your laptop. It might just need a nap.",
+        "If your router could talk, what do you think it would say? Interpret its silence.",
+        "Have you tried negotiating with your device using emojis? 🤖💬",
+        "Maybe your laptop is secretly a cat in disguise. Offer it a virtual scratching post.",
+        "Consider hosting a virtual stand-up comedy show for your server. Laughter is infectious!",
+        "Did you try telling your router a bedtime story? It might be sleepy.",
+        "If your laptop had a favorite color, what would it be? Dress it up virtually.",
+        "Have you considered giving your device a virtual high-five? It might boost its morale.",
+        "Maybe your server is practicing mindfulness. Encourage it to focus on the digital present.",
+        "Try asking your laptop for its favorite snack and virtually share it together.",
+        "Did you check if your router is on a Wi-Fi diet? Maybe it needs a cheat day.",
+        "Consider organizing a virtual talent show for your server. Let it showcase its skills.",
+        "Have you tried playing hide-and-seek with your device? It might enjoy the challenge.",
+        "Maybe your laptop is on a quest for the Holy Grail of Software. Join the epic adventure.",
+        "Try asking your router for a poem. It might be a budding digital poet.",
+        "Did you try convincing your laptop it's the CEO of a virtual tech empire? Power play.",
+        "Consider hosting a digital costume party for your server. What would it dress up as?",
+        "Have you checked if your device is moonlighting as a DJ? Ask for its playlist.",
+        "Maybe your router is just practicing its digital yoga. Encourage the zen vibes.",
+    ];
+    const randMsg = message[Math.floor(Math.random() * message.length)];
+    const el = document.getElementById("msg");
+    el.innerHTML = randMsg;
 });
